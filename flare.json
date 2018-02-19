@@ -1,0 +1,36 @@
+{
+ "name": "Brown University research funding",
+ "children": [
+  {"name": "Science and Engineering",
+   "children": [
+    {"name": "Science", 
+     "children": [
+      {"name": "Agricultural Sciences", "size": 0},
+      {"name": "Biological Sciences", "size": 68},
+      {"name": "Computer Sciences", "size": 24},
+      {"name": "Earth, atmospheric, and ocean sciences", "size": 16},
+      {"name": "Mathematics", "size": 20},
+      {"name": "Physical Sciences", "size": 76},
+      {"name": "Psychology", "size": 0},
+      {"name": "Social Sciences", "size": 94} ]
+    },
+    {"name": "Engineering", 
+     "children": [
+      {"name": "Aeronautical/astronautical engineering", "size": 0},
+      {"name": "Chemical engineering", "size": 4},
+      {"name": "Civil engineering", "size": 0},
+      {"name": "Electrical engineering", "size": 8},
+      {"name": "Industrial engineering", "size": 0},
+      {"name": "Materials/metallurgical engineering", "size": 8},
+      {"name": "Mechanical engineering", "size": 14},
+      {"name": "Other engineering", "size": 14} ]
+    } ]
+  },
+  {"name": "Non-science and engineering",
+     "children": [
+      {"name": "Education", "size": 2},
+      {"name": "Health", "size": 10},
+      {"name": "Humanities", "size": 92},
+      {"name": "Professional/other/unknown", "size": 4} ]
+  } ]
+}
