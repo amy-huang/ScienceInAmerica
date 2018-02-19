@@ -3,7 +3,7 @@ A series of HTML visualizations of big organization research in the United State
 
 # blurb
 
-Scientists, and the work that they do, often feels disparate from mainstream American life. They write our textbooks, publish the statistics that we see in government brochures and agency websites, and teach many of the college students in the country. 
+Scientists, and the work that they do, often feels disparate from mainstream American life. They write our textbooks, publish the statistics that we see in government brochures and agency websites, and teach many of the college students in the country. We don't see them around - unless we have scientific affiliations around. They don't seem to like the spotlight, either; they're hardly in the media.
 
 Who are they, and where are they? What do they do all day? Who gives them money, and what do those people and organizations look like? These are odd questions for sure - it's much like wondering who manufactures the eraser tips on your pencils, or the plastic in your phone case. A typical non-scientist most likely never has to think much of the people behind the science that runs the world. 
 
