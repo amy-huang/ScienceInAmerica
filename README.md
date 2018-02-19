@@ -1,7 +1,7 @@
 # ScienceInAmerica
 A series of HTML visualizations of big organization research in the United States.
 
-#blurb
+# blurb
 
 Scientists, and the work that they do, often feels disparate from mainstream American life. They write our textbooks, publish the statistics that we see in government brochures and agency websites, and teach many of the college students in the country. 
 
