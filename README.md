@@ -1,7 +1,7 @@
 # ScienceInAmerica
 A series of HTML visualizations of big organization research in the United States.
 
-# draft
+# Intro
 
 Science is fundamental to innovation. Each generation knows more about why and how the world works, and is able to do more with that knowledge than ever before. 
 
@@ -13,6 +13,17 @@ Let's look further into this process. Science, broadly put, is the creation of n
 
 Scientists do science, and they are almost always trained in graduate school. 
 
+Funded by large organizations.
+
+# What 
+
+Different fields of study based on resource bundling.
+
+# Why
+
+Applications for the betterment of society - controversies, criticism.
+
+# Todo
 
 This project will attempt to explain in words and with web visualizations why and how that happens. I will cover
 - what fields count as "science"
