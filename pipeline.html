@@ -24,8 +24,23 @@
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="sankey.js"></script>
+
+<form id="option">
+  <label><input type="radio" name="mode" onclick="load('sankey96.json')" value="1996">1996</label>
+  <label><input type="radio" name="mode" onclick="load('sankey.json')" value="2016">2016</label>
+</form>
+
 <script>
-	
+
+function load(jsonfile) {
+d3.selectAll("svg").remove();
+d3.selectAll("margin").remove();
+d3.selectAll("formatNumber").remove();
+d3.selectAll("sankey").remove();
+d3.selectAll("path").remove();
+d3.selectAll("link").remove();
+d3.selectAll("node").remove();
+
 var units = "Widgets";
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 10, bottom: 10, left: 10},
@@ -34,7 +49,7 @@ var margin = {top: 10, right: 10, bottom: 10, left: 10},
 // format variables
 var formatNumber = d3.format(",.0f"),    // zero decimal places
     format = function(d) { return formatNumber(d) + " " + units; },
-    color = d3.scaleOrdinal(d3.schemeCategory20);
+    color = d3.scaleOrdinal(d3.schemeCategory20c);
 // append the svg object to the body of the page
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -48,12 +63,14 @@ var sankey = d3.sankey()
     .nodePadding(40)
     .size([width, height]);
 var path = sankey.link();
+
 // load the data
-d3.json("sankey.json", function(error, graph) {
+d3.json(jsonfile, function(error, graph) {
   sankey
       .nodes(graph.nodes)
       .links(graph.links)
       .layout(32);
+
 // add in the links
   var link = svg.append("g").selectAll(".link")
       .data(graph.links)
@@ -117,6 +134,8 @@ d3.json("sankey.json", function(error, graph) {
     link.attr("d", path);
   }
 });
+
+}
 </script>
 
 </body>
